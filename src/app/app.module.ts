@@ -5,6 +5,8 @@ import { NgModule } from '@angular/core';
 import { MatTableModule } from '@angular/material/table';
 import { NgxSpinnerModule } from "ngx-spinner";
 
+import { UserDashboardModule } from "./modules/user-dashboard/user-dashboard.module"
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './layout/header/header.component';
@@ -29,7 +31,8 @@ import { NotFoundComponent } from './page/not-found/not-found.component';
     BrowserAnimationsModule,
     AppRoutingModule,
     NgxSpinnerModule,
-    MatTableModule
+    MatTableModule,
+    UserDashboardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
